@@ -21,7 +21,7 @@ public class Pedal implements Serializable {
 
     @Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id_customer;
+	private Long id_pedal;
 
     private String title;
 	
